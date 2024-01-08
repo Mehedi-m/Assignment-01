@@ -1,0 +1,72 @@
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    padding: 50px 140px;
+    padding-right: 140px;
+}
+header {
+    width: 1320px;
+height: 600px;
+    border-radius: 16px;
+background-image:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../Images/Banner\ Image.png');
+margin-bottom: 120px;
+
+}
+.head-t h1{
+    width: 632px;
+    height: 190px;
+    color: #FFF;
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+position: absolute;
+left: 38%;
+top: 35%;
+}
+.head-t h6{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 50;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+
+}
+
+.off h1{
+    color: #F00;
+    text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.off h6{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 50px;
+}
+.off h2{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 100px;
+}
+.imu{
+   text-align: center;
+   
+}
+
+
+
