@@ -51,8 +51,9 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-margin-top: 50px;
+margin-top: 40px;
 }
+
 .off h2{
     color: #070211;
 text-align: center;
@@ -61,12 +62,64 @@ font-size: 48px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-padding-bottom: 100px;
+margin-bottom: 48px;
 }
-.imu{
-   text-align: center;
+.pic{
+position: absolute;
+margin-left: 225px;
+margin-bottom: 120px;
+}
+.welc{
+    width: 1320px;
+height: 600px;
+border-radius: 16px;
+margin-top: 642px;
+background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/Vectorrr.png);
+}
+.welc h1{
+    width: 642px;
+    padding-top: 126px;
+    padding-left: 126px;
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+}
+.welc p{
+    width: 697px;
+    padding-left: 126px;
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 200;
+line-height: 30px; /* 166.667% */
+}
+.btn{
+padding-left: 158px;
+padding-top: 20px;
+
+}
+.btt{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding: 10px;
+border-radius: 10px;
+background-color: orange;
+}
+.btn button:hover{ filter: brightness(0.7);
+    transition: 0.3s;
    
 }
+
 
 
 
