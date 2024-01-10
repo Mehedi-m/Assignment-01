@@ -1,7 +1,7 @@
 body{
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
-    margin: 50px 140px;
+   
     
 }
 header {
@@ -9,7 +9,8 @@ width: 1320px;
 height: 600px;
 border-radius: 16px;
 background-image:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../Images/Banner\ Image.png');
-margin-bottom: 120px;
+margin-bottom: 120px; 
+margin: 50px 140px;
 
 }
 .cele{
@@ -35,6 +36,9 @@ top: 35%;
     top: 25%;
     left: 47%;
 
+}
+main{margin: 0px 140px;
+    
 }
 
 .off h1{
@@ -290,6 +294,9 @@ margin-bottom:48px ;
 .banr{
     margin-bottom: 120px;
 }
+.mail{
+    margin-bottom: 120px;
+}
 .sub{
     text-align: center;
     width: 1320px;
@@ -348,12 +355,50 @@ line-height: 32px; /* 160% */
     transition: 0.3s;
 }
 .foot{
-    background: #070211;
-        margin-bottom: 0%;
-    margin: 0px;
-    padding: 0px;
+    background-color: #070211;
+height: 609px;
+ text-align: center;
+}
+.ft-dis{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 90px 20px 90px;
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 350px;
+line-height: 40px; /* 166.667% */
 
 }
+.ft-dip{
+     display: flex;
+    justify-content: space-between;
+    padding: 50px 90px 20px 90px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350px;
+    line-height: 40px; /* 166.667% */
+}
+hr{
+    width: 1320px;
+}
+.icons{
+    padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 43%;
+  display: flex;
+  gap: 25px;
+
+}
+
+
+
+
+
+
 
 
 
